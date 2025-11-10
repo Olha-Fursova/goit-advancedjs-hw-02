@@ -1,0 +1,93 @@
+main {
+  padding: 24px;
+  gap: 46px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+}
+
+input {
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+input:hover {
+  border-color: #000000;
+  outline: none;
+}
+
+input:active,
+input:focus {
+  border-color: #4e75ff;
+  outline: none;
+}
+
+fieldset {
+  width: 360px;
+  height: 78px;
+  padding-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 48px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  margin: 16px 0 24px 0;
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+fieldset:hover {
+  border-color: #000000;
+}
+
+fieldset label {
+  flex-direction: row;
+}
+
+fieldset input {
+  width: 20px;
+  height: 20px;
+}
+
+button {
+  width: 360px;
+  height: 40px;
+  background-color: #4e75ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+
+button:hover,
+button:focus {
+  background-color: #6c8cff;
+}
